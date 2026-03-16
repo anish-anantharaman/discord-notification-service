@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: discord
+
+discord:
+  webhook:
+    chat-user: ${CHAT_USER}
+    url: ${DISCORD_WEBHOOK_URL}
